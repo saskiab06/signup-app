@@ -1,3 +1,10 @@
+// font
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+
+$font-family-sans-serif: "Rubik", sans-serif;
+$font-size-base: 0.875rem; // 14px
+$font-size-sm: 0.75rem; //  12px
+
 // theme colors
 $light: #f5f5f5;
 $dark: #333;
@@ -26,3 +33,4 @@ $spacers: (
 @import "buttons";
 
 @import "front-page";
+@import "sign-up";
