@@ -9,6 +9,7 @@ const SignUpForm = () => {
       <input
         id="id"
         type="number"
+        inputMode="numeric"
         className="mb-3 p-1 rounded-pill border-1 border-dark bg-light"
       />
       <label htmlFor="email" className="text-uppercase small">
@@ -17,6 +18,7 @@ const SignUpForm = () => {
       <input
         id="email"
         type="email"
+        inputMode="email"
         className="mb-1 p-1 rounded-pill border-1 border-dark bg-light"
       />
       <p className="small">
