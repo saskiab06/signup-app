@@ -15,17 +15,22 @@ $secondary: #006eb5;
 $spacer: 1.875rem; // 30px
 $spacers: (
   0: 0,
-  1: $spacer / 4,
   // space inside input elements
-  2: $spacer / 2,
+  1: $spacer / 4,
   // space between buttons,
-  3: $spacer / 1.25,
+  2: $spacer / 2,
   // space between form inputs
+  3: $spacer / 1.25,
   4: $spacer,
-  5: $spacer * 2,
+  // space between sign-up form and button
+  5: $spacer * 1.75,
   6: $spacer * 3,
   7: $spacer * 4,
 );
+
+// gradients
+$enable-gradients: true;
+$gradient: linear-gradient(92.12deg, $secondary 23.17%, $primary 80.26%);
 
 @import "../../../../node_modules/bootstrap/scss/bootstrap.scss";
 

@@ -8,7 +8,7 @@ const SignUp = () => {
       <SignUpForm />
       <Link
         to="/"
-        className="mb-2 btn rounded-pill fw-bold bg-primary text-light border-light"
+        className="mt-4 btn rounded-pill fw-bold bg-primary bg-gradient text-light border-light"
         aria-label="registreeru"
       >
         Registreeru
