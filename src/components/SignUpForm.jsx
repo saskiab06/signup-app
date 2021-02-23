@@ -10,7 +10,7 @@ const SignUpForm = () => {
         id="id"
         type="number"
         inputMode="numeric"
-        className="mb-3 p-1 rounded-pill border-1 border-dark bg-light"
+        className="mb-4 p-1 rounded-pill border-1 border-dark bg-light lh-1"
       />
       <label htmlFor="email" className="text-uppercase small">
         E-mail
@@ -19,7 +19,7 @@ const SignUpForm = () => {
         id="email"
         type="email"
         inputMode="email"
-        className="mb-1 p-1 rounded-pill border-1 border-dark bg-light"
+        className="mb-1 p-1 rounded-pill border-1 border-dark bg-light lh-1"
       />
       <p className="small">
         E-maili kasutatakse vajadusel teavituste saatmiseks
