@@ -1,3 +1,14 @@
 .btn {
-  width: 61.11%; // = ~200px when width is 360px
+  min-width: 61.11vw;
+  max-width: 61.11vw; // = ~200px when width is 360px
+  will-change: transform;
+  transition: transform 0.25s;
+
+  &:hover {
+    transform: scale(1.1);
+
+    + .bird-icon {
+      transform: translate(-2vw, -0.8vw) scale(1.1);
+    }
+  }
 }

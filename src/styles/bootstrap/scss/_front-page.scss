@@ -1,3 +1,11 @@
 .frontpage__btns {
   top: 43.75vh;
 }
+
+.bird-icon {
+  background-image: url("../../icons/Icon-bird.svg");
+  background-repeat: no-repeat;
+  top: -4.8vw;
+  will-change: transform;
+  transition: transform 0.25s;
+}
