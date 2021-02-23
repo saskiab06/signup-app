@@ -1,6 +1,28 @@
+// theme colors
 $light: #f5f5f5;
 $dark: #333;
 $primary: #003087;
 $secondary: #006eb5;
 
+// spacing
+$spacer: 1.875rem; // 30px
+$spacers: (
+  0: 0,
+  1: $spacer / 4,
+  // space inside input elements
+  2: $spacer / 2,
+  // space between buttons,
+  3: $spacer / 1.25,
+  // space between form inputs
+  4: $spacer,
+  5: $spacer * 2,
+  6: $spacer * 3,
+  7: $spacer * 4,
+);
+
 @import "../../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// custom styles
+@import "buttons";
+
+@import "front-page";
