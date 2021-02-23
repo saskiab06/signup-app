@@ -12,25 +12,24 @@ $primary: #003087;
 $secondary: #006eb5;
 
 // spacing
-$spacer: 1.875rem; // 30px
+$spacer: 1.25rem; // 30px
 $spacers: (
   0: 0,
-  // space inside input elements
-  1: $spacer / 4,
-  // space between buttons,
-  2: $spacer / 2,
-  // space between form inputs
-  3: $spacer / 1.25,
+  1: $spacer * 0.5,
+  2: $spacer * 0.6,
+  3: $spacer * 0.75,
   4: $spacer,
-  // space between sign-up form and button
-  5: $spacer * 1.75,
-  6: $spacer * 3,
-  7: $spacer * 4,
+  5: $spacer * 1.25,
+  6: $spacer * 1.5,
+  7: $spacer * 2.25,
 );
 
 // gradients
 $enable-gradients: true;
 $gradient: linear-gradient(92.12deg, $secondary 23.17%, $primary 80.26%);
+
+//margins
+$enable-negative-margins: true;
 
 @import "../../../../node_modules/bootstrap/scss/bootstrap.scss";
 
