@@ -3,7 +3,7 @@ import React from "react";
 const Background = () => {
   return (
     <svg
-      className="position-absolute"
+      className="position-absolute bottom-0"
       width="360"
       height="435"
       viewBox={`0 0 360 435`}
