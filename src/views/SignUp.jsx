@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const SignUp = () => {
   return (
-    <div className="sign-up__content position-relative d-flex flex-column align-items-center">
+    <div className="sign-up__content position-relative d-flex flex-column align-items-center ps-1">
       <SignUpForm />
       <Link
         to="/"
